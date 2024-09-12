@@ -1,0 +1,70 @@
+body {
+  background-color: #f8f9fa; /* Light grey background */
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  color: #343a40;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: linear-gradient(135deg, #007bff, #6f42c1); /* Blue to purple fade */
+  color: white;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.681);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.card img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Center the text */
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem; /* Increase the font size for the title */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1.4rem; /* Increase the font size for the text */
+  margin-bottom: 20px;
+}
+
+.card-text small {
+  font-size: 1.4rem; /* Adjust the font size for the smaller text */
+}
